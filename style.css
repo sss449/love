@@ -95,7 +95,7 @@ p {
 .float-heart {
     position: absolute;
     bottom: -50px;
-    font-size: 24px;
+    font-size: 70px;
     opacity: 0;
     animation: floatUp 6s infinite linear;
 }
@@ -106,6 +106,25 @@ p {
 .float-heart:nth-child(3) { left: 55%; animation-delay: 4s; }
 .float-heart:nth-child(4) { left: 80%; animation-delay: 1s; font-size: 35px; }
 .float-heart:nth-child(5) { left: 90%; animation-delay: 3s; }
+
+.float-heart:nth-child(6) { left: 13%; animation-delay: 2s; }
+.float-heart:nth-child(7) { left: 33%; animation-delay: 4s; font-size: 33px; }
+.float-heart:nth-child(8) { left: 53%; animation-delay: 4s; }
+.float-heart:nth-child(9) { left: 83%; animation-delay: 3s; font-size: 33px; }
+.float-heart:nth-child(10) { left: 93%; animation-delay: 3s; }
+
+.float-heart:nth-child(11) { left: 6%; animation-delay: 0s; }
+.float-heart:nth-child(12) { left: 24%; animation-delay: 4s; font-size: 45px; }
+.float-heart:nth-child(13) { left: 48%; animation-delay: 4s; }
+.float-heart:nth-child(14) { left: 78%; animation-delay: 2s; font-size: 45px; }
+.float-heart:nth-child(15) { left: 88%; animation-delay: 4s; }
+
+.float-heart:nth-child(11) { left: 7%; animation-delay: 1s; }
+.float-heart:nth-child(12) { left: 25%; animation-delay: 1s; font-size: 20px; }
+.float-heart:nth-child(13) { left: 49%; animation-delay: 1s; }
+.float-heart:nth-child(14) { left: 79%; animation-delay: 1s; font-size: 25px; }
+.float-heart:nth-child(15) { left: 89%; animation-delay: 1s; }
+
 
 @keyframes floatUp {
     0% { transform: translateY(0) scale(0.5); opacity: 0; }
